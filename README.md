@@ -1,6 +1,6 @@
 # Transformer-Transducer
 PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02562)  
-![a](https://user-images.githubusercontent.com/54731898/108169681-6025d280-713c-11eb-9dd7-ac05344582de.PNG)  
+![a](https://user-images.githubusercontent.com/54731898/108169681-6025d280-713c-11eb-9dd7-ac05344582de.PNG){: width="50%" height="50%"} 
 
 
 ![b](https://user-images.githubusercontent.com/54731898/108169684-6156ff80-713c-11eb-9469-80820d91c365.PNG)   
