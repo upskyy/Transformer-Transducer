@@ -12,5 +12,4 @@ I appreciate any feedback or contribution.
 - [okkteam/Transformer-Transducer](https://github.com/okkteam/Transformer-Transducer)
 
 ## Author
--
 - seomk9896@naver.com
