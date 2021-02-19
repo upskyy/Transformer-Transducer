@@ -10,7 +10,7 @@ PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02
 ![b](https://user-images.githubusercontent.com/54731898/108169684-6156ff80-713c-11eb-9469-80820d91c365.PNG)   
 
 There are an Audio encoder and a Label encoder structure.  
-I appreciate [any feedback or contribution](seomk9896@naver.com).  
+I appreciate [any feedback or contribution](https://github.com/hasangchun).  
 
 
 ## Usage
