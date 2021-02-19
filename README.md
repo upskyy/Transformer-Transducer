@@ -7,30 +7,32 @@ PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02
 It is an Audio encoder and a Label encoder structure.  
 I appreciate any feedback or contribution.  
 
+
+## Usage
 ```python
 from transformer_transducer.model_builder import build_transformer_transducer
 import torch
 import warnings
 
-warnings.filterwarnings('ignore')
-
-batch_size = 4
-seq_length = 500
-input_size = 80
+BATCH_SIZE, SEQ_LENGTH, INPUT_SIZE, NUM_VOCABS = 3, 500, 80, 10
 
 cuda = torch.cuda.is_available()
 device = torch.device('cuda' if cuda else 'cpu')
 
-inputs = torch.FloatTensor(batch_size, input_size, seq_length).to(device)
-input_lengths = torch.LongTensor([seq_length, seq_length - 10, seq_length - 20, seq_length - 30]).to(device)
-
 model = build_transformer_transducer(
         device,
-        num_vocabs=10,
-        input_size=input_size,
+        num_vocabs=NUM_VOCABS,
+        input_size=INPUT_SIZE,
 )
 
-outputs = model.recognize(inputs, input_lengths)
+inputs = torch.FloatTensor(BATCH_SIZE, INPUT_SIZE, SEQ_LENGTH).to(device)
+input_lengths = torch.IntTensor([500, 450, 350])
+targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
+                            [1, 3, 3, 3, 3, 3, 4, 5, 2, 0],
+                            [1, 3, 3, 3, 3, 3, 4, 2, 0, 0]]).to(device)
+target_lengths = torch.LongTensor([9, 8, 7])
+
+outputs = model(inputs, input_lengths, targets, target_lengths)
 ```
 
 ## Reference
