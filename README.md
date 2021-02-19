@@ -6,7 +6,8 @@ PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02
 
 It is an Audio encoder and a Label encoder structure.  
 I appreciate any feedback or contribution.  
-```
+
+```python
 from transformer_transducer.model_builder import build_transformer_transducer
 import torch
 import warnings
