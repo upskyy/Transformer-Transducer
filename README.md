@@ -1,4 +1,4 @@
-# Transformer-Transducer 
+# Transformer-Transducer
 Transformer-Transducer is that every layer is identical for both audio and label encoders.
 Unlike the basic transformer structure, the audio encoder and label encoder are separate.
 So, the alignment is handled by a separate forward-backward process within the RNN-T architecture.
