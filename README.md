@@ -40,7 +40,8 @@ outputs = model(inputs, input_lengths, targets, target_lengths)
 ```
 
 ## Reference
-- [Transformer Transducer: A Streamable Speech Recognition Model with Transformer Encoders and RNN-T Loss](https://arxiv.org/abs/2002.02562)
+- [Transformer Transducer: A Streamable Speech Recognition Model with Transformer Encoders and RNN-T Loss](https://arxiv.org/abs/2002.02562)  
+
 
 ## License
 ```
@@ -57,6 +58,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-```
+```  
+
 ## Author
 - seomk9896@naver.com
