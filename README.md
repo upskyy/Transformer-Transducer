@@ -4,13 +4,12 @@ Unlike the basic transformer structure, the audio encoder and label encoder are 
 So, the alignment is handled by a separate forward-backward process within the RNN-T architecture.
 And we replace the LSTM encoders in RNN-T architecture with Transformer encoders.
 
-PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02562)  
+PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02562).
 
 
 ![b](https://user-images.githubusercontent.com/54731898/108169684-6156ff80-713c-11eb-9469-80820d91c365.PNG)   
 
-There are an Audio encoder and a Label encoder structure.  
-I appreciate [any feedback or contribution](https://github.com/hasangchun).  
+This repository contains only model code, but you can train with transformer transducer at [openspeech](https://github.com/sooftware/openspeech).
 
 
 ## Usage
