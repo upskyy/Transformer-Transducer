@@ -11,7 +11,7 @@ PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02
 
 This repository contains only model code, but you can train with transformer transducer at [openspeech](https://github.com/sooftware/openspeech).
 
-
+  
 ## Usage
 ```python
 from transformer_transducer.model_builder import build_transformer_transducer
@@ -40,11 +40,7 @@ outputs = model(inputs, input_lengths, targets, target_lengths)
 
 ## Reference
 - [Transformer Transducer: A Streamable Speech Recognition Model with Transformer Encoders and RNN-T Loss](https://arxiv.org/abs/2002.02562)  
-
-
-## Author
-- seomk9896@naver.com  
-
+  
 ## License
 ```
 Copyright 2021 Sangchun Ha.
