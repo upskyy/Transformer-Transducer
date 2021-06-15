@@ -13,9 +13,9 @@ This repository contains only model code, but you can train with transformer tra
 
   
 ├── joint_ctc_cross_entropy
-    ├── __init__.py
-    ├── configuration.py
-    └── joint_ctc_cross_entropy.py
+      ├── __init__.py
+      ├── configuration.py
+      └── joint_ctc_cross_entropy.py
         
 ## Usage
 ```python
