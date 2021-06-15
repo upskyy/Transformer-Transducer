@@ -12,6 +12,16 @@ PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02
 This repository contains only model code, but you can train with transformer transducer at [openspeech](https://github.com/sooftware/openspeech).
 
   
+|-- app
+  |-- app.js
+  |-- db.js
+  |-- directoryList.md
+  |-- index.html
+  |-- mddir.js
+  |-- routing.js
+  |-- server.js
+  |-- _api
+        
 ## Usage
 ```python
 from transformer_transducer.model_builder import build_transformer_transducer
