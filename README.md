@@ -12,11 +12,10 @@ PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02
 This repository contains only model code, but you can train with transformer transducer at [openspeech](https://github.com/sooftware/openspeech).
 
   
-        |-- _api
-            |-- api.groups.js
-            |-- api.posts.js
-            |-- api.users.js
-            |-- api.widgets.js
+├── joint_ctc_cross_entropy
+    ├── __init__.py
+    ├── configuration.py
+    └── joint_ctc_cross_entropy.py
         
 ## Usage
 ```python
