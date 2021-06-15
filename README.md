@@ -13,8 +13,8 @@ This repository contains only model code, but you can train with transformer tra
 
 ```
 ├── configs
-│   ├── README.md
-│   └── configs.yaml
+    ├── README.md
+    └── configs.yaml
 ```
           
 ## Usage
