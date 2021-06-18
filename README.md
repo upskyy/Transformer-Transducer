@@ -7,7 +7,7 @@ And we replace the LSTM encoders in RNN-T architecture with Transformer encoders
 PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02562).
 
 
-![b](https://user-images.githubusercontent.com/54731898/108169684-6156ff80-713c-11eb-9469-80820d91c365.PNG)   
+![aa](https://user-images.githubusercontent.com/54731898/122544852-2ae8ad00-d068-11eb-9fa2-e75088520409.png)  
 
 This repository contains only model code, but you can train with transformer transducer at [openspeech](https://github.com/sooftware/openspeech).
 
@@ -58,4 +58,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```  
-
