@@ -1,10 +1,10 @@
 # Transformer-Transducer
-Transformer-Transducer is that every layer is identical for both audio and label encoders.
+
+**Transformer-Transducer** is that every layer is identical for both audio and label encoders.
 Unlike the basic transformer structure, the audio encoder and label encoder are separate.
 So, the alignment is handled by a separate forward-backward process within the RNN-T architecture.
-And we replace the LSTM encoders in RNN-T architecture with Transformer encoders.
+And this replace the LSTM encoders with Transformer encoders in RNN-T architecture.
 
-PyTorch Implementation of [Transformer Transducer](https://arxiv.org/abs/2002.02562).
 
 
 This repository contains only model code, but you can train with transformer transducer at [openspeech](https://github.com/sooftware/openspeech).
