@@ -10,6 +10,10 @@ And this replace the LSTM encoders with Transformer encoders in RNN-T architectu
 This repository contains only model code, but you can train with transformer transducer at [openspeech](https://github.com/sooftware/openspeech).
 
 
+## Installation
+```   
+pip install -e .   
+```   
           
 ## Usage
 ```python
@@ -34,7 +38,11 @@ targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
                             [1, 3, 3, 3, 3, 3, 4, 2, 0, 0]]).to(device)
 target_lengths = torch.LongTensor([9, 8, 7])
 
+# Forward propagate
 outputs = model(inputs, input_lengths, targets, target_lengths)
+
+# Recognize input speech
+outputs = model.recognize(inputs, input_lengths)
 ```
 
 ## Reference
